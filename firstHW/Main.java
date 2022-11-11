@@ -104,7 +104,6 @@ public class Main {
         int consonant = 0;
         String[] consonantLetters = {"b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "z"};
         for (int i = 0; i < strArr.length; i++) {
-
             for (int j = 0; j < 20; j++) {
                 if (j < 6 && strArr[i].equals(vowelLetters[j])) {
                     vowel++;
@@ -115,7 +114,6 @@ public class Main {
                     break;
                 }
             }
-
         }
         System.out.println("number of vowel letters: " + vowel);
         System.out.println("number of consonant letters: " + consonant);
