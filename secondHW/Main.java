@@ -8,7 +8,7 @@ public class Main {
 
     static void setMarks(String[] groupList) {
         int quantity = groupList.length;
-        int[][] markList = new int[quantity][2];
+        int[][] markList = new int[quantity][2];//markList[i][0] - sum of marks; markList[i][1] -number of responses;
         Scanner in = new Scanner(System.in);
 
         String choice = "";
