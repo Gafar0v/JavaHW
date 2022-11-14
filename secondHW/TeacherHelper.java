@@ -69,7 +69,7 @@ public class TeacherHelper {
             try {
                 BufferedReader reader = new BufferedReader(new FileReader(file));
                 String line = reader.readLine();
-                List<String> listOfStrings = new ArrayList<String>();
+                List<String> listOfStrings = new ArrayList<>();
                 while (line != null) {
                     listOfStrings.add(line);
                     line = reader.readLine();
