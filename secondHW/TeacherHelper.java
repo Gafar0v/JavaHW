@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TeacherHelper {
-    private String[] groupList = new String[1];
+    private String[] groupList;
 
     void setMarks() {
         int quantity = this.groupList.length;
