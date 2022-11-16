@@ -21,7 +21,6 @@ public class TeacherHelper {
 
             if (choice.equals(Command.random)) {
                 int randomIndex = (int) (Math.random() * group.getLength());
-                System.out.println();
                 Student student = this.group.getStudent(randomIndex);
                 System.out.println(student.getName());
                 System.out.print("Оценка : ");
